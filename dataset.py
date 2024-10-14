@@ -23,26 +23,33 @@ class Dataset:
                 self._sensor_classes[f"mat_{mat}"].append(s)
 
     def get_sensor_cls(self, mat, sensor, num_samples=None, as_log=False):
+        """
+        returns X, y, time array, targets array
+        """
         s: Sensor = self._sensor_classes[f"mat_{mat}"][sensor]
         interpolated_data = s.get_interpolated_data(
             force_num_samples=num_samples)
         X = np.array([[]] * 10)
         y = np.array([], dtype=np.int32)
         time_arr = np.array([])
+        targets = np.array([])
         for cls_data in interpolated_data:
             X = np.append(X, cls_data["X"], axis=1)
             y = np.append(y, cls_data["y"])
             time_arr = np.append(time_arr, cls_data["time_arr"])
+            targets = np.append(targets, cls_data["targets"])
         if as_log:
             X = np.log(X)
-        return X.T, y, time_arr
+        return X.T, y, time_arr, targets
 
     def get_sensor_pair_cls(self, mat, sensor_pair,
                             num_samples=None,
                             as_log=False,
                             as_mean=False,
                             sort_by_class=False):
-
+        """
+        returns X, y, time array, targets
+        """
         if len(sensor_pair) != 2:
             raise Exception("sensors_list must contain exactly 2 sensor ids!")
 
@@ -62,6 +69,7 @@ class Dataset:
 
         y = np.array([], dtype=np.int32)
         time_arr = np.array([])
+        targets = np.array([])
 
         for cls_data_1, cls_data_2 in zip(s1_data, s2_data):
             if not (cls_data_1["y"] == cls_data_2["y"]).all():
@@ -79,11 +87,18 @@ class Dataset:
             X = np.append(X, X_1_2, axis=1)
             y = np.append(y, cls_data_1["y"])
             time_arr = np.append(time_arr, cls_data_1["time_arr"])
+            targets = np.append(targets, cls_data_1["targets"])
 
         if as_log:
             X = np.log(X)
 
-        return X.T, y, time_arr
+        return X.T, y, time_arr, targets
+
+    def clean_up_regression_data(self, X, targets):
+        cond = ~np.isnan(targets)
+        X_clean = X[cond]
+        y_clean = targets[cond]
+        return X_clean, y_clean
 
 
 if __name__ == "__main__":
@@ -98,7 +113,7 @@ if __name__ == "__main__":
         interp_funcs = pickle.load(f)
 
     dataset = Dataset(sensor_data, labels, interp_funcs)
-    X, y, time_arr = dataset.get_sensor_pair_cls(
+    X, y, time_arr, targets = dataset.get_sensor_pair_cls(
         0,
         (0, 1),
         num_samples=100,

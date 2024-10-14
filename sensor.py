@@ -15,6 +15,7 @@ class Sensor:
             start = label["start"]
             end = label["end"]
             cls = label["label"]
+            target = label["target"]
             heater_data_list = []
             for i in range(10):
                 heater_step = self._data[i]
@@ -34,6 +35,7 @@ class Sensor:
 
             cls_data_list.append({
                 "class": cls,
+                "target": target,
                 "start": start,
                 "end": end,
                 "heater_data_list": heater_data_list
@@ -45,6 +47,7 @@ class Sensor:
         cls_data_list = []
         for raw_cls_data in self._raw_cls_data_list:
             cls = raw_cls_data["class"]
+            target = raw_cls_data["target"]
             start = raw_cls_data["start"]
             end = raw_cls_data["end"]
             heater_data_list = raw_cls_data["heater_data_list"]
@@ -63,11 +66,13 @@ class Sensor:
 
             cls_data_list.append({
                 "class": cls,
+                "target": target,
                 "start": start,
                 "end": end,
                 "time_arr": sample_times,
                 "X": np.array(interp_heater_data_list),
-                "y": np.array([cls] * num_samples, dtype=np.int32)
+                "y": np.array([cls] * num_samples, dtype=np.int32),
+                "targets": np.array([target] * num_samples, dtype=np.float32)
             })
 
         return cls_data_list

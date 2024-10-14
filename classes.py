@@ -12,3 +12,13 @@ OLIVE_80 = 4
 OLIVE_70 = 5
 OLIVE_50 = 6
 OLIVE_0 = 7
+
+regression_targets = {
+    OLIVE_100: 100,
+    OLIVE_95: 95,
+    OLIVE_90: 90,
+    OLIVE_80: 80,
+    OLIVE_70: 70,
+    OLIVE_50: 50,
+    OLIVE_0: 0
+}
