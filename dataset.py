@@ -1,4 +1,5 @@
 import numpy as np
+import numpy.typing as npt
 from sensor import Sensor
 
 
@@ -100,9 +101,52 @@ class Dataset:
         y_clean = targets[cond]
         return X_clean, y_clean
 
+    def calibrate_data(self, X_src: npt.NDArray, X_target: npt.NDArray) -> npt.NDArray:
+        """
+        calibrates X_src to match X_target.
+
+        returns X_src_calibrated.
+
+        X_src = [10, 14, 20]
+
+        X_target = [30, 38, 50]
+
+        -> X_src_calibrated = [30, 38, 20]
+        """
+        interval_src = np.std(X_src, axis=0)
+        interval_target = np.std(X_target, axis=0)
+        it_over_is = interval_target / interval_src
+        X_scr_calibrated = X_src.copy()
+        X_scr_calibrated = X_scr_calibrated * it_over_is
+        X_scr_calibrated = X_scr_calibrated - \
+            (np.mean(X_scr_calibrated, axis=0) - np.mean(X_target, axis=0))
+        return X_scr_calibrated
+
+
+def plot_data_pair(X_l, X_r, time_arr, title):
+    data_T_l = X_l.T
+    data_T_r = X_r.T
+    fig = go.Figure()
+
+    for i, data in enumerate(data_T_l):
+        fig.add_trace(go.Scatter(x=time_arr,
+                                 y=data,
+                                 mode="markers",
+                                 name=f"L {i}"))
+    for i, data in enumerate(data_T_r):
+        fig.add_trace(go.Scatter(x=time_arr,
+                                 y=data,
+                                 mode="markers",
+                                 name=f"R {i}"))
+
+    fig.update_layout(title=title, title_x=0.5, width=1000, height=600)
+    fig.update_traces(marker=dict(size=2))
+    fig.show()
+
 
 if __name__ == "__main__":
     import pickle
+    import plotly.graph_objects as go
     with open("lpf_sensor_data.pkl", "rb") as f:
         sensor_data = pickle.load(f)
 
@@ -117,4 +161,10 @@ if __name__ == "__main__":
         0,
         (0, 1),
         num_samples=100,
-        as_mean=True)
+        as_log=True,
+        as_mean=False)
+    X_src, X_target = X[:, :10], X[:, 10:]
+    X_src_calibrated = dataset.calibrate_data(X_src, X_target)
+    diff = np.sum(np.abs(X_src_calibrated - X_target))
+    print(diff)
+    # plot_data_pair(X_src_calibrated, X_target, time_arr, "")
