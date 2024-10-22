@@ -118,8 +118,9 @@ class Dataset:
         it_over_is = interval_target / interval_src
         X_scr_calibrated = X_src.copy()
         X_scr_calibrated = X_scr_calibrated * it_over_is
-        X_scr_calibrated = X_scr_calibrated - \
-            (np.mean(X_scr_calibrated, axis=0) - np.mean(X_target, axis=0))
+        mean_diff = np.mean(X_scr_calibrated, axis=0) - \
+            np.mean(X_target, axis=0)
+        X_scr_calibrated = X_scr_calibrated - mean_diff
         return X_scr_calibrated
 
 
@@ -159,12 +160,12 @@ if __name__ == "__main__":
     dataset = Dataset(sensor_data, labels, interp_funcs)
     X, y, time_arr, targets = dataset.get_sensor_pair_cls(
         0,
-        (0, 1),
+        (2, 3),
         num_samples=100,
         as_log=True,
         as_mean=False)
     X_src, X_target = X[:, :10], X[:, 10:]
-    X_src_calibrated = dataset.calibrate_data(X_src, X_target)
-    diff = np.sum(np.abs(X_src_calibrated - X_target))
-    print(diff)
+    X_src_calibrated = dataset.calibrate_data(
+        X_src, X_target)
+    # diff = np.sum(np.abs(X_src_calibrated - X_target))
     # plot_data_pair(X_src_calibrated, X_target, time_arr, "")
