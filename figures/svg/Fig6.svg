@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 566 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2,-2)">
+        <g id="base" transform="matrix(1,0,0,1,-185,-11.75)">
+            <path d="M450,45.3C450,37.407 443.593,31 435.7,31L207.3,31C199.407,31 193,37.407 193,45.3L193,131.7C193,139.593 199.407,146 207.3,146L435.7,146C443.593,146 450,139.593 450,131.7L450,45.3Z" style="fill:rgb(231,231,231);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-56,-9.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S0</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-184.5,-47)">
+            <text x="275px" y="58.721px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Sensor Matrix 0</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-195,96.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-503</text>
+        </g>
+        <g id="s-texts" serif:id="s texts" transform="matrix(1,0,0,1,-185,-11.75)">
+            <g transform="matrix(1,0,0,1,129,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S1</text>
+            </g>
+            <g transform="matrix(1,0,0,1,97,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S2</text>
+            </g>
+            <g transform="matrix(1,0,0,1,97,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S3</text>
+            </g>
+            <g transform="matrix(1,0,0,1,36,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S4</text>
+            </g>
+            <g transform="matrix(1,0,0,1,36,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S5</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S6</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S7</text>
+            </g>
+        </g>
+        <g id="siyahlar" transform="matrix(1,0,0,1,-185,-12.25)">
+            <rect x="344" y="78" width="12" height="5" style="fill:rgb(155,155,155);"/>
+            <g transform="matrix(1,0,0,1,0,17)">
+                <rect x="344" y="78" width="12" height="5" style="fill:rgb(155,155,155);"/>
+            </g>
+        </g>
+        <g id="kose_yuv" transform="matrix(1,0,0,1,-185,-11.75)">
+            <g transform="matrix(0.882353,0,0,0.882353,51.4706,0.705882)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,51.4706,90.7059)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,-180.529,0.705882)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,-180.529,90.7059)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+        </g>
+        <g id="sd" transform="matrix(1,0,0,1,-185,-11.75)">
+            <path d="M193,68.5L193,65.631C193,65.199 193.172,64.784 193.478,64.478C193.784,64.172 194.199,64 194.631,64L222.192,64C223.342,64 224.437,64.492 225.201,65.351C226.379,66.677 228,68.5 228,68.5L250.221,68.5C251.203,68.5 252,69.297 252,70.279L252,109.721C252,110.703 251.203,111.5 250.221,111.5L188.779,111.5C187.797,111.5 187,110.703 187,109.721L187,70.279C187,69.297 187.797,68.5 188.779,68.5L193,68.5Z" style="fill:rgb(106,106,106);"/>
+        </g>
+        <g id="sensors" transform="matrix(1,0,0,1,-185,-11.75)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+            <g transform="matrix(1,0,0,1,0,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-32,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(219,165,7);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-32,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(219,165,7);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-93,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,199,210);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-93,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,199,210);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-125,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(13,105,134);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-125,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(13,105,134);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-345,78)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(13,105,134);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-195,120.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-41<tspan x="305.891px " y="57.332px ">1</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,-345,102)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,199,210);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-102,96.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-323</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-252,78)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(219,165,7);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-102,120.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-354</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-252,102)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+        </g>
+        <g id="base1" serif:id="base" transform="matrix(1,0,0,1,118,-11.75)">
+            <path d="M450,45.3C450,37.407 443.593,31 435.7,31L207.3,31C199.407,31 193,37.407 193,45.3L193,131.7C193,139.593 199.407,146 207.3,146L435.7,146C443.593,146 450,139.593 450,131.7L450,45.3Z" style="fill:rgb(231,231,231);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,247,-9.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S0</text>
+        </g>
+        <g transform="matrix(1,0,0,1,118.5,-47)">
+            <text x="275px" y="58.721px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Sensor Matrix 1</text>
+        </g>
+        <g transform="matrix(1,0,0,1,108,96.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-414</text>
+        </g>
+        <g id="s-texts1" serif:id="s texts" transform="matrix(1,0,0,1,118,-11.75)">
+            <g transform="matrix(1,0,0,1,129,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S1</text>
+            </g>
+            <g transform="matrix(1,0,0,1,97,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S2</text>
+            </g>
+            <g transform="matrix(1,0,0,1,97,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S3</text>
+            </g>
+            <g transform="matrix(1,0,0,1,36,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S4</text>
+            </g>
+            <g transform="matrix(1,0,0,1,36,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S5</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4,2)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S6</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4,70)">
+                <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">S7</text>
+            </g>
+        </g>
+        <g id="siyahlar1" serif:id="siyahlar" transform="matrix(1,0,0,1,118,-12.25)">
+            <rect x="344" y="78" width="12" height="5" style="fill:rgb(155,155,155);"/>
+            <g transform="matrix(1,0,0,1,0,17)">
+                <rect x="344" y="78" width="12" height="5" style="fill:rgb(155,155,155);"/>
+            </g>
+        </g>
+        <g id="kose_yuv1" serif:id="kose_yuv" transform="matrix(1,0,0,1,118,-11.75)">
+            <g transform="matrix(0.882353,0,0,0.882353,51.4706,0.705882)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,51.4706,90.7059)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,-180.529,0.705882)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.882353,0,0,0.882353,-180.529,90.7059)">
+                <circle cx="437.5" cy="48.5" r="8.5" style="fill:white;"/>
+            </g>
+        </g>
+        <g id="sd1" serif:id="sd" transform="matrix(1,0,0,1,118,-11.75)">
+            <path d="M193,68.5L193,65.631C193,65.199 193.172,64.784 193.478,64.478C193.784,64.172 194.199,64 194.631,64L222.192,64C223.342,64 224.437,64.492 225.201,65.351C226.379,66.677 228,68.5 228,68.5L250.221,68.5C251.203,68.5 252,69.297 252,70.279L252,109.721C252,110.703 251.203,111.5 250.221,111.5L188.779,111.5C187.797,111.5 187,110.703 187,109.721L187,70.279C187,69.297 187.797,68.5 188.779,68.5L193,68.5Z" style="fill:rgb(106,106,106);"/>
+        </g>
+        <g id="sensors1" serif:id="sensors" transform="matrix(1,0,0,1,118,-11.75)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+            <g transform="matrix(1,0,0,1,0,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-32,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(231,122,0);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-32,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(231,122,0);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-93,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,210,156);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-93,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,210,156);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-125,0)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(134,13,110);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-125,33)">
+                <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(134,13,110);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-42,78)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(134,13,110);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,108,120.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-504</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-42,102)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(142,210,156);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,201,96.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-332</text>
+        </g>
+        <g transform="matrix(1,0,0,1,51,78)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(231,122,0);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,201,120.75)">
+            <text x="275px" y="57.332px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:12px;">HP-354</text>
+        </g>
+        <g transform="matrix(1,0,0,1,51,102)">
+            <path d="M421,68.5C421,66.016 418.984,64 416.5,64L407.5,64C405.016,64 403,66.016 403,68.5L403,77.5C403,79.984 405.016,82 407.5,82L416.5,82C418.984,82 421,79.984 421,77.5L421,68.5Z" style="fill:rgb(218,7,59);"/>
+        </g>
+    </g>
+</svg>
